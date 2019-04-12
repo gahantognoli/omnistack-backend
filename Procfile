@@ -1,1 +1,1 @@
-web: mpm start
+web: yarn start
