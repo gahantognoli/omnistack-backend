@@ -28,7 +28,7 @@ app.use((req, res, next) => {
 
 //qualquer front-end acessar a aplicação publicada. Caso isso não seja feito, 
 //a aplicação só poderá ser acessada por clients no mesmo domínio.
-app.use(cors() );
+app.use(cors());
 
 //cadastrar um módulo dentro do express
 app.use(express.json());
